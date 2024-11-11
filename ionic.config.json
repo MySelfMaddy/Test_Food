@@ -1,0 +1,7 @@
+{
+  "name": "food-inspect-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

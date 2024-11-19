@@ -1,0 +1,52 @@
+PODS:
+  - Capacitor (6.1.2):
+    - CapacitorCordova
+  - CapacitorApp (6.0.1):
+    - Capacitor
+  - CapacitorCommunityCameraPreview (6.0.0):
+    - Capacitor
+  - CapacitorCordova (6.1.2)
+  - CapacitorHaptics (6.0.1):
+    - Capacitor
+  - CapacitorKeyboard (6.0.2):
+    - Capacitor
+  - CapacitorStatusBar (6.0.1):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCommunityCameraPreview (from `../../node_modules/@capacitor-community/camera-preview`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCommunityCameraPreview:
+    :path: "../../node_modules/@capacitor-community/camera-preview"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+
+SPEC CHECKSUMS:
+  Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
+  CapacitorApp: 0bc633b4eae40a1f32cd2834788fad3bc42da6a1
+  CapacitorCommunityCameraPreview: 9319cde1da660b7643833dac20aaa85135bd1441
+  CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
+  CapacitorHaptics: fe689ade56ef20ec9b041a753c6da70c5d8ec9a9
+  CapacitorKeyboard: 2700f9b18687be021e28b5a09b59eb151a46d5e0
+  CapacitorStatusBar: b81d4fb5d4e0064c712018071b3ab4b810b39a63
+
+PODFILE CHECKSUM: 3affe71377562c1dc3d37e05a2ee9c438bb89de1
+
+COCOAPODS: 1.16.2

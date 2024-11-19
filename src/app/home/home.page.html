@@ -1,20 +1,20 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Food Quality Scanner</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div id="cameraPreviewContainer">
+    <div id="cameraPreview"></div>
   </div>
+
+  <ion-text color="primary" *ngIf="resultMessage">
+    <h2>{{ resultMessage }}</h2>
+  </ion-text>
+
+  <ion-button expand="block" (click)="toggleScanning()">
+    {{ scanning ? 'Stop Scanning' : 'Start Scanning' }}
+  </ion-button>
+
 </ion-content>

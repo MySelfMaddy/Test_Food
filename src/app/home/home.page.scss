@@ -25,3 +25,16 @@
 #container a {
   text-decoration: none;
 }
+#cameraPreviewContainer {
+  position: relative;
+  height: 70vh;
+  background-color: black;
+}
+
+#cameraPreview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
